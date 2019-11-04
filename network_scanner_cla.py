@@ -9,7 +9,7 @@ def get_arguments():
     parser.add_argument("-t", "--target", dest="target", help="Target IP / IP range.")
     options = parser.parse_args()
     if not options.target:
-        parser.error("[-] Please specify a target ip / ip range, use --help for more info.")
+        parser.error("[-] Please specify a target ip / ip range, use --help for more info. (--target 10.0.2.1/24)")
     return options
 
 
