@@ -3,7 +3,7 @@
 Python 3 program (using scapy and argparse) to discover all devices on the network and print their IP and MAC address.
 
 You will need the scapy module for this program to work.
-* $ pip3 install scapy-python3
+* $ pip3 install scapy
 
 Command line takes the following argument:
 
