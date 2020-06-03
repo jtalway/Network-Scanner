@@ -5,7 +5,9 @@ Python 3 program (using scapy and argparse) to discover all devices on the netwo
 You will need the scapy module for this program to work.
 * $ pip3 install scapy
 
-$ sudo python3 
+You can run the program using the following command:
+
+* $ sudo python3 netscan-cla.py
 
 Command line takes the following argument:
 
