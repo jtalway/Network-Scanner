@@ -2,17 +2,18 @@
 
 Python 3 program (using scapy and argparse) to discover all devices on the network and print their IP and MAC address.
 
-You will need the scapy module for this program to work.
-* $ pip3 install scapy
+## Dependencies
 
-You can run the program using the following command:
+```
+$ sudo apt-get install python3-scapy
+```
 
-* $ sudo python3 netscan-cla.py
+## Usage
 
-Command line takes the following argument:
+```
+$ sudo python3 netscan-cla.py --target 192.168.0.1/24
+$ sudo python3 netscan-cla.py -t 10.0.2.1/24
+```
+#### Arguments
+`-t` (or `--target`) indicating the Target IP / IP range
 
-"-t" (or "--target") indicating the Target IP / IP range, such as:
-* --target 192.168.0.1/24
-* --target 10.0.2.1/24
-
-[Jason Alway](https://jtalway.github.io)
